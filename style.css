@@ -99,3 +99,67 @@ body {
     font-size: 2rem;
     border: none;
 }
+
+@media only screen and (max-width: 600px){
+    .jogo{
+        width: 100vw;
+        height: 100vh;
+        background-color: purple;
+    }
+
+    .titulo{
+        width: 100vw;
+        height: 6rem;
+        background-color:rgb(255, 239, 62);
+        text-align: center;
+        display: grid;
+        place-items: center;
+    }
+
+    .titulo__texto{
+        font-size: 2rem;
+        color: rgb(0, 0, 0);
+    }
+
+    .mao{
+        width: 100vw;
+        height: 26rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .maos {
+        width: 7.5rem;
+        height: 7.5rem;
+        border-radius: 0.2rem;
+        border: none;
+    }
+
+    .mao__pedra{
+        background: url(./img/pedra.jpg); 
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 8rem;
+        cursor: pointer;
+    }
+    
+    .mao__papel{
+        background: url(./img/papel.jpg); 
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 8rem;
+        cursor: pointer;
+    }
+    
+    .mao__tesoura{
+        background: url(./img/tesoura.jpg); 
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 8rem;
+        cursor: pointer;
+    }
+
+
+}
