@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: aliceblue;
+}
+
+.jogo{
+    width: 70rem;
+    height: 40rem;
+    background-color: purple;
+    border-radius: 1rem;
+}
+
+.titulo{
+    width: 100%;
+    height: 6rem;
+    background-color:rgb(255, 239, 62);
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+
+.titulo__texto{
+    font-size: 4rem;
+    color: rgb(0, 0, 0);
+}
+
+.mao{
+    width: 100%;
+    height: 26rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+}
+
+.maos {
+    width: 14rem;
+    height: 14rem;
+    border-radius: 0.2rem;
+    border: none;
+}
+
+.mao__pedra{
+    background: url(./img/pedra.jpg); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 14rem;
+    cursor: pointer;
+}
+
+.mao__papel{
+    background: url(./img/papel.jpg); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15rem;
+    cursor: pointer;
+}
+
+.mao__tesoura{
+    background: url(./img/tesoura.jpg); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15rem;
+    cursor: pointer;
+}
+
+.jogar{
+    width: 100%;
+    height: 9rem;
+    display: grid;
+    place-items: center;
+}
+
+.jogar__botao{
+    width: 20rem;
+    height: 4rem;
+    font-size: 2rem;
+    border: none;
+
+}
+
+.xes {
+    font-size: 9rem;
+    color: aliceblue;
+}
+
+.jogar__novamente{
+    display: none;
+    width: 20rem;
+    height: 4rem;
+    font-size: 2rem;
+    border: none;
+}
